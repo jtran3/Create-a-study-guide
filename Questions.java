@@ -2,19 +2,16 @@ public class Questions
 {
 	//instance variable
 	private String questions;
-	private int qID;
 	
 	//no argument constructor
 	public Questions()
 	{
 		questions = "";
-		qID = 0;
 	}
 	//argument constructor
-	public Questions(int qID, String questions)
+	public Questions(String questions)
 	{
 		this.questions = questions;
-		this.qID = qID;
 	}
 	
 	
@@ -38,32 +35,6 @@ public class Questions
 	{
 		this.questions = questions;
 	}
-	
-	/**
-	 * Method name: getqID
-	 * @return qID
-	 * description: get the qID information that was set
-	 */
-	public int getqID()
-	{
-		return qID;
-	}
 
-	/**
-	 * Method name: setqID
-	 * @param qID
-	 * description: set the qID information
-	 */
-	public void setqID(int qID)
-	{
-		this.qID = qID;
-	}
-
-	@Override
-	public String toString()
-	{
-		return "Questions: " + qID + questions;
-	}
-	
 	
 }
