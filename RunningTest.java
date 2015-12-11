@@ -10,9 +10,9 @@ public class RunningTest {
         System.out.println("Do you want to create some questions (yes or no)");
         if(in = "yes"){
             System.out.println("Please enter a question here ");
-               name.add(in.next());
+               q.add(in.next());
            System.out.println("Please enter an answer for the question ");
-                name.add(in.next());
+                a.add(in.next());
         }
         else
         {
